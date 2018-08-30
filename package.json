@@ -1,13 +1,13 @@
 {
   "name": "happywork-new",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
     "happywork-new": "./bin/index.js"
   },
   "scripts": {
-    "build": "rimraf dist && webpack --config webpack.config.js && npm run zipTemplate",
+    "build": "rimraf dist && webpack --config webpack.config.js",
     "zipTemplate": "node ./tools/zipTemplate.js"
   },
   "keywords": [],
