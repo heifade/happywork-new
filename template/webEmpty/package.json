@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0-beta1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "happywork run webbuild",
+    "start": "happywork run webstart",
+    "update": "yarn upgrade --latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "latest",
+    "happywork-config": "latest"
+  },
+  "dependencies": {}
+}
