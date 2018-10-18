@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0-beta1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "happywork-node-builder ",
+    "start": "node ./bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "happywork-node-builder": "@latest"
+  }
+}
