@@ -1,26 +1,24 @@
 {
   "name": "happywork-new",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
     "happywork-new": "./bin/index.js"
   },
   "scripts": {
-    "build": "rimraf dist && webpack --config webpack.config.js",
+    "build": "happywork-node-builder",
     "zipTemplate": "node ./tools/zipTemplate.js"
   },
+  "files": [
+    "bin"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.0",
-    "babel-preset-env": "^1.7.0",
-    "rimraf": "^2.6.2",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "happywork-node-builder": "^1.0.8",
+    "rimraf": "^2.6.2"
   },
   "dependencies": {
     "archive-dir": "latest",
