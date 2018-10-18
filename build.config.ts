@@ -1,4 +1,4 @@
-import { BuildConfig } from "happywork-node-builder";
+// import { BuildConfig } from "happywork-node-builder";
 
 export default {
   input: "src/index.ts",
@@ -8,4 +8,4 @@ export default {
     mini: true,
     format: "cjs"
   }
-} as BuildConfig;
+} ;
