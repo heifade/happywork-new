@@ -1,6 +1,6 @@
 {
   "name": "happywork-new",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -21,7 +21,7 @@
     "@types/node": "^10.12.0",
     "chalk": "^2.4.1",
     "commander": "^2.17.1",
-    "happywork-node-builder": "^1.0.17",
+    "happywork-node-builder": "^1.0.18",
     "rimraf": "^2.6.2"
   },
   "dependencies": {
