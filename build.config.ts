@@ -1,6 +1,6 @@
-// import { BuildConfig } from "happywork-node-builder";
+import { BuildConfig } from "happywork-node-builder";
 
-export default {
+const config: BuildConfig = {
   input: "src/index.ts",
   output: {
     dir: "dist",
@@ -8,4 +8,6 @@ export default {
     mini: true,
     format: "cjs"
   }
-} ;
+};
+
+export default config;
