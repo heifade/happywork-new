@@ -1,7 +1,7 @@
 import { resolve, basename } from "path";
 import chalk from "chalk";
 import { existsSync, readdirSync } from "fs";
-const { unzipDir } = require("archive-dir");
+import { unzipDir } from "archive-dir";
 
 export function unzipTemplate(template: string, path: string) {
   const dir = resolve(__dirname, `./template/`);
