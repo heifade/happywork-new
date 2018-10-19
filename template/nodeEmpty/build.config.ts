@@ -1,12 +1,13 @@
 import { BuildConfig } from "happywork-node-builder";
 
-export default {
+const config: BuildConfig = {
   input: "src/index.ts",
   output: {
-    dir: "bin",
+    dir: "dist",
     file: "index.js",
     mini: true,
-    format: "cjs",
-    banner: "#!/usr/bin/env node"
+    format: "cjs"
   }
-} as BuildConfig;
+};
+
+export default config;
