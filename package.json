@@ -1,6 +1,6 @@
 {
   "name": "happywork-new",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -19,11 +19,12 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^10.12.0",
-    "archive-dir": "^1.0.0-beta13",
     "chalk": "^2.4.1",
     "commander": "^2.17.1",
-    "happywork-node-builder": "^1.0.16",
+    "happywork-node-builder": "^1.0.17",
     "rimraf": "^2.6.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "archive-dir": "^1.0.2"
+  }
 }

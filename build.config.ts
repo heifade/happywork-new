@@ -7,7 +7,8 @@ const config: BuildConfig = {
     file: "index.js",
     mini: true,
     format: "cjs"
-  }
+  },
+  external: ["archive-dir"]
 };
 
 export default config;
