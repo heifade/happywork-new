@@ -20,4 +20,7 @@ async function build() {
 
 build()
   .then(() => console.log("处理完成！"))
-  .catch(() => console.log("处理失败！"));
+  .catch(() => {
+    console.log("处理失败！");
+    process.exit(1);
+  });
