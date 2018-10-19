@@ -1,10 +1,9 @@
 const { zipDir } = require("archive-dir");
-const { mkdirSync, existsSync } = require("fs");
+const { mkdirSync, existsSync, readdirSync } = require("fs");
 const { resolve } = require("path");
-const fs = require("fs");
 
 async function build() {
-  let templates = fs.readdirSync(resolve(__dirname, "../template"));
+  let templates = readdirSync(resolve(__dirname, "../template"));
 
   templates.map(async item => {
     let sourceDir = resolve(__dirname, `../template/${item}`);
