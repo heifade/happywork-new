@@ -5,10 +5,10 @@ const config: BuildConfig = {
   output: {
     dir: "dist",
     file: "index.js",
-    mini: true,
     format: "cjs"
   },
-  external: ["archive-dir"]
+  external: ["archive-dir"],
+  mini: false
 };
 
 export default config;
