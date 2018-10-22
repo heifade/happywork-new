@@ -5,9 +5,9 @@ const config: BuildConfig = {
   output: {
     dir: "dist",
     file: "index.js",
-    mini: true,
     format: "cjs"
-  }
+  },
+  mini: true
 };
 
 export default config;
