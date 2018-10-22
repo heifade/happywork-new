@@ -1,6 +1,6 @@
 {
   "name": "happywork-new",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "happywork-node-builder",
-    "zipTemplate": "node ./tools/zipTemplate.js"
+    "template": "node ./tools/template.js"
   },
   "files": [
     "bin",
@@ -21,7 +21,7 @@
     "@types/node": "^10.12.0",
     "chalk": "^2.4.1",
     "commander": "^2.17.1",
-    "happywork-node-builder": "^1.0.18",
+    "happywork-node-builder": "^1.0.30",
     "rimraf": "^2.6.2"
   },
   "dependencies": {
