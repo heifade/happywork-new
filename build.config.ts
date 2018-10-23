@@ -3,9 +3,10 @@ import { BuildConfig } from "happywork-node-builder";
 const config: BuildConfig = {
   input: "src/index.ts",
   output: {
-    dir: "dist",
+    dir: "bin",
     file: "index.js",
-    format: "cjs"
+    format: "cjs",
+    banner: "#!/usr/bin/env node"
   },
   external: ["archive-dir"],
   mini: false

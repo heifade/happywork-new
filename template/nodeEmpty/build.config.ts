@@ -7,7 +7,7 @@ const config: BuildConfig = {
     file: "index.js",
     format: "cjs"
   },
-  mini: true
+  mini: false
 };
 
 export default config;

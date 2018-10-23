@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "happywork-node-builder ",
+    "build": "happywork-node-builder build",
     "start": "node ./bin/index.js"
   },
   "files": [
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "happywork-node-builder": "^1.0.16",
+    "happywork-node-builder": "^1.0.46",
     "@types/node": "^10.12.0"
   }
 }
