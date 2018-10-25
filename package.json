@@ -1,6 +1,6 @@
 {
   "name": "happywork-new",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,8 @@
     "template": "node ./tools/template.js"
   },
   "files": [
-    "bin"
+    "bin",
+    "dist"
   ],
   "keywords": [],
   "author": "",
