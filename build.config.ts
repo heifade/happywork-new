@@ -5,10 +5,9 @@ const config: BuildConfig = {
     index: "src/index.ts"
   },
   output: {
-    dir: "bin",
+    dir: "dist",
     file: "index.js",
-    format: "cjs",
-    banner: "#!/usr/bin/env node"
+    format: "cjs"
   },
   external: ["archive-dir"],
   mini: true
