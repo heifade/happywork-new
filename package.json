@@ -1,6 +1,6 @@
 {
   "name": "happywork-new",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -25,6 +25,6 @@
     "rimraf": "^2.6.2"
   },
   "dependencies": {
-    "archive-dir": "^1.0.2"
+    "archive-dir": "^1.0.3"
   }
 }
